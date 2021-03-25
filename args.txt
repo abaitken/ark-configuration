@@ -9,8 +9,10 @@ ServerAdminPassword=ADMIN_PASSWORD_GOES_HERE
 Port=27015
 QueryPort=27016
 MaxPlayers=8
-customdynamicconfigurl="file:///C:/Data/ark/dynamicconfig.ini"
-CustomLiveTuningUrl="file:///C:/Data/ark/DefaultOverloads.json"
+#customdynamicconfigurl="file:///C:/Data/ark/dynamicconfig.ini"
+customdynamicconfigurl="http://git.apps.lan/games/ark/raw/branch/main/dynamicconfig.ini"
+#CustomLiveTuningUrl="file:///C:/Data/ark/DefaultOverloads.json"
+CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverloads.json"
 RCONEnabled=True
 RCONPort=27020
 
