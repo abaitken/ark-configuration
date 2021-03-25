@@ -1,0 +1,19 @@
+#https://ark.gamepedia.com/Dedicated_Server_Setup#SteamCMD
+#https://ark.gamepedia.com/Server_Configuration
+#https://ini.arkforum.de/index.php?lang=en&mode=all
+
+map=TheIsland
+SessionName=Exilers
+ServerPassword=SERVER_PASSWORD_GOES_HERE
+ServerAdminPassword=ADMIN_PASSWORD_GOES_HERE
+Port=27015
+QueryPort=27016
+MaxPlayers=8
+customdynamicconfigurl="file:///C:/Data/ark/dynamicconfig.ini"
+CustomLiveTuningUrl="file:///C:/Data/ark/DefaultOverloads.json"
+RCONEnabled=True
+RCONPort=27020
+
+AdditionalFlags=-UseDynamicConfig -NoBattlEye
+
+Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort! !AdditionalFlags!
