@@ -10,7 +10,7 @@ Port=27015
 QueryPort=27016
 MaxPlayers=8
 #customdynamicconfigurl="file:///C:/Data/ark/dynamicconfig.ini"
-customdynamicconfigurl="http://git.apps.lan/games/ark/raw/branch/main/dynamicconfig.ini"
+customdynamicconfigurl=http://git.apps.lan/games/ark/raw/branch/main/dynamicconfig.ini
 #CustomLiveTuningUrl="file:///C:/Data/ark/DefaultOverloads.json"
 CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverloads.json"
 RCONEnabled=True
@@ -18,4 +18,4 @@ RCONPort=27020
 
 AdditionalFlags=-UseDynamicConfig -NoBattlEye
 
-Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort! !AdditionalFlags!
+Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
