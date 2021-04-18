@@ -17,5 +17,6 @@ RCONEnabled=True
 RCONPort=27020
 
 AdditionalFlags=-UseDynamicConfig -NoBattlEye
+# -ActiveEvent=Easter
 
 Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
