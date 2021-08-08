@@ -16,7 +16,8 @@ CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverlo
 RCONEnabled=True
 RCONPort=27020
 
-AdditionalFlags=-UseDynamicConfig -NoBattlEye
+AdditionalFlags=-UseDynamicConfig -NoBattlEye -ActiveEvent=SummerBash
 # -ActiveEvent=Easter
+# -ActiveEvent=SummerBash
 
 Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
