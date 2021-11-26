@@ -2,24 +2,19 @@
 #https://ark.gamepedia.com/Server_Configuration
 #https://ini.arkforum.de/index.php?lang=en&mode=all
 
-map=TheIsland
-SessionName=Exilers
 ServerPassword=SERVER_PASSWORD_GOES_HERE
 ServerAdminPassword=ADMIN_PASSWORD_GOES_HERE
-Port=27015
-QueryPort=27016
 MaxPlayers=8
 #customdynamicconfigurl="file:///C:/Data/ark/dynamicconfig.ini"
 customdynamicconfigurl=http://git.apps.lan/games/ark/raw/branch/main/dynamicconfig.ini
 #CustomLiveTuningUrl="file:///C:/Data/ark/DefaultOverloads.json"
 CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverloads.json"
 RCONEnabled=True
-RCONPort=27020
 GameModIds=731604991
+ClusterId=exilers01
 
-AdditionalFlags=-UseDynamicConfig -NoBattlEye -ActiveEvent=FearEvolved
+AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NoBattlEye -ActiveEvent=FearEvolved
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
 
-Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
 #?GameModIds=!GameModIds!

@@ -1,0 +1,8 @@
+map=ScorchedEarth_P
+SessionName=Exilers on Scorched Earth
+Port=27017
+QueryPort=27018
+RCONPort=27021
+AltSaveDirectoryName=Scorched
+
+Args=!map!?listen?SessionName="!SessionName!"?AltSaveDirectoryName=!AltSaveDirectoryName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
