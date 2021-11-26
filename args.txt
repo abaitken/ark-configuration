@@ -15,9 +15,11 @@ customdynamicconfigurl=http://git.apps.lan/games/ark/raw/branch/main/dynamicconf
 CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverloads.json"
 RCONEnabled=True
 RCONPort=27020
+GameModIds=731604991
 
-AdditionalFlags=-UseDynamicConfig -NoBattlEye -ActiveEvent=SummerBash
+AdditionalFlags=-UseDynamicConfig -NoBattlEye -ActiveEvent=FearEvolved
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
 
 Args=!map!?listen?SessionName=!SessionName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
+#?GameModIds=!GameModIds!
