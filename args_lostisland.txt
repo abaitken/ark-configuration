@@ -1,0 +1,8 @@
+map=LostIsland
+SessionName=Exilers on Lost Island
+Port=2701x
+QueryPort=2701x
+RCONPort=2702x
+AltSaveDirectoryName=LostIsland
+
+Args=!map!?listen?SessionName="!SessionName!"?AltSaveDirectoryName=!AltSaveDirectoryName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
