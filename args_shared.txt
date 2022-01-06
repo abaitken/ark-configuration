@@ -13,10 +13,11 @@ RCONEnabled=True
 GameModIds=731604991
 ClusterId=exilers01
 
-AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NewYearEvent -NoBattlEye
+AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NoBattlEye
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
 # -ActiveEvent=FearEvolved
 # -activeevent=WinterWonderland
+# -NewYearEvent
 
 #?GameModIds=!GameModIds!
