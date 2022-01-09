@@ -12,6 +12,11 @@ CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverlo
 RCONEnabled=True
 GameModIds=731604991
 ClusterId=exilers01
+MaxTributeDinos=250
+MaxTributeItems=150
+TributeItemExpirationSeconds=31536000
+TributeDinoExpirationSeconds=31536000
+TributeCharacterExpirationSeconds=31536000
 
 AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NoBattlEye
 # -ActiveEvent=Easter
@@ -19,5 +24,3 @@ AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId
 # -ActiveEvent=FearEvolved
 # -activeevent=WinterWonderland
 # -NewYearEvent
-
-#?GameModIds=!GameModIds!
