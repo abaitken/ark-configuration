@@ -18,9 +18,10 @@ TributeItemExpirationSeconds=31536000
 TributeDinoExpirationSeconds=31536000
 TributeCharacterExpirationSeconds=31536000
 
-AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NoBattlEye -ActiveEvent=vday
+AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NoBattlEye
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
 # -ActiveEvent=FearEvolved
 # -activeevent=WinterWonderland
+# -ActiveEvent=vday
 # -NewYearEvent
