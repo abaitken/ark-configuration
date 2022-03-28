@@ -1,5 +1,5 @@
 {
-    LongDelay: 900,
+    LongDelay: 300,
     ShortDelay: 5,
     SaveFilePath: "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
     UploadTargets: [
