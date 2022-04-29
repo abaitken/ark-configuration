@@ -19,7 +19,7 @@
             Host: "SFTP_HOSTNAME",
             Username: "SFTP_USERNAME",
             Password: "SFTP_PASSWORD",
-            RemoteTarget: "/ark-dino-tracker/data.json"
+            RemoteTarget: "/ark-dino-tracker/wild.json"
         }
     ]
 }
