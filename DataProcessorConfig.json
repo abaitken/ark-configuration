@@ -9,9 +9,12 @@
             RemoteTarget: "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
         },
         {
-            Id: "disabled_tamed_creature_locations",
+            Id: "tamed_creature_locations",
             Scheme: "sftp",
-            RemoteTarget: "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_creature_locations.json"
+            Host: "SFTP_HOSTNAME",
+            Username: "SFTP_USERNAME",
+            Password: "SFTP_PASSWORD",
+            RemoteTarget: "/ark-dino-tracker/tamed.json"
         },
         {
             Id: "wild_creature_locations",
