@@ -17,8 +17,9 @@ MaxTributeItems=150
 TributeItemExpirationSeconds=31536000
 TributeDinoExpirationSeconds=31536000
 TributeCharacterExpirationSeconds=31536000
+ClusterDirOverride=C:\Data\ark-clusters
 
-AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -clusterid=!ClusterId! -NoBattlEye
+AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -NoBattlEye
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
 # -ActiveEvent=FearEvolved

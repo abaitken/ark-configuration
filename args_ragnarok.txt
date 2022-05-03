@@ -1,6 +1,7 @@
 map=Ragnarok
 SessionName=Exilers on Ragnarok
-Port=2701x
-QueryPort=2701x
-RCONPort=2702x
+Port=7781
+#7782
+QueryPort=27017
+RCONPort=27082
 AltSaveDirectoryName=Ragnarok

@@ -1,8 +1,8 @@
 map=TheCenter
 SessionName=Exilers on The Center
-Port=2701x
-QueryPort=2701x
-RCONPort=2702x
+Port=7783
+#7784
+QueryPort=27018
+RCONPort=27083
 AltSaveDirectoryName=Center
 
-Args=!map!?listen?SessionName="!SessionName!"?AltSaveDirectoryName=!AltSaveDirectoryName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!

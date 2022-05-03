@@ -1,6 +1,7 @@
 map=TheIsland
 SessionName=Exilers on The Island
-Port=27015
-QueryPort=27016
-RCONPort=27020
+Port=7777
+#7778
+QueryPort=27015
+RCONPort=27080
 AltSaveDirectoryName=Island

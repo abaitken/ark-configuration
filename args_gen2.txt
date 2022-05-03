@@ -1,0 +1,7 @@
+map=????
+SessionName=Exilers on Genesis 2
+Port=7793
+#7794
+QueryPort=27054
+RCONPort=27088
+AltSaveDirectoryName=Gen2

@@ -1,6 +1,7 @@
 map=ScorchedEarth_P
 SessionName=Exilers on Scorched Earth
-Port=27017
-QueryPort=27018
-RCONPort=27021
+Port=7779
+#7780
+QueryPort=27016
+RCONPort=27081
 AltSaveDirectoryName=Scorched

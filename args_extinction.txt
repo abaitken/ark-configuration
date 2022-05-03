@@ -1,0 +1,7 @@
+map=????
+SessionName=Exilers on Extinction
+Port=7789
+#7790
+QueryPort=27052
+RCONPort=27086
+AltSaveDirectoryName=Extinction
