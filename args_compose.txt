@@ -1,6 +1,6 @@
 Args=!map!?listen?SessionName="!SessionName!"?AltSaveDirectoryName=!AltSaveDirectoryName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
 
-
+#?MultiHome=!ServerIP!
 #?GameModIds=!GameModIds!
 
 #?TributeItemExpirationSeconds=!TributeItemExpirationSeconds!?TributeDinoExpirationSeconds=!TributeDinoExpirationSeconds!?TributeCharacterExpirationSeconds=!TributeCharacterExpirationSeconds!?MaxTributeDinos=!MaxTributeDinos!?MaxTributeItems=!MaxTributeItems!

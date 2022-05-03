@@ -1,0 +1,6 @@
+https://arkservermanager.freeforums.net/thread/6225/multihome-ip-box-workaround-solution
+
+GameUserSettings.ini
+
+[MultiHome]
+MultiHome=True

@@ -2,6 +2,7 @@
 #https://ark.gamepedia.com/Server_Configuration
 #https://ini.arkforum.de/index.php?lang=en&mode=all
 
+ServerIP=192.168.1.5
 ServerPassword=SERVER_PASSWORD_GOES_HERE
 ServerAdminPassword=ADMIN_PASSWORD_GOES_HERE
 MaxPlayers=8
