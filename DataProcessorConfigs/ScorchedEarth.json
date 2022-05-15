@@ -23,6 +23,14 @@
             "Username": "SFTP_USERNAME",
             "Password": "SFTP_PASSWORD",
             "RemoteTarget": "/ark-dino-tracker/se-wild.json"
+        },
+        {
+            "Id": "structure_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/se-structures.json"
         }
     ]
 }
