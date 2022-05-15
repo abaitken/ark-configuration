@@ -1,28 +1,28 @@
 {
-    LongDelay: 300,
-    ShortDelay: 5,
-    SaveFilePath: "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
-    UploadTargets: [
+    "LongDelay": 300,
+    "ShortDelay": 5,
+    "SaveFilePath": "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
+    "UploadTargets": [
         {
-            Id: "disabled_tamed_breeding_data",
-            Scheme: "copy",
-            RemoteTarget: "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
+            "Id": "disabled_tamed_breeding_data",
+            "Scheme": "copy",
+            "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
         },
         {
-            Id: "tamed_creature_locations",
-            Scheme: "sftp",
-            Host: "SFTP_HOSTNAME",
-            Username: "SFTP_USERNAME",
-            Password: "SFTP_PASSWORD",
-            RemoteTarget: "/ark-dino-tracker/tamed.json"
+            "Id": "tamed_creature_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/tamed.json"
         },
         {
-            Id: "wild_creature_locations",
-            Scheme: "sftp",
-            Host: "SFTP_HOSTNAME",
-            Username: "SFTP_USERNAME",
-            Password: "SFTP_PASSWORD",
-            RemoteTarget: "/ark-dino-tracker/wild.json"
+            "Id": "wild_creature_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/wild.json"
         }
     ]
 }
