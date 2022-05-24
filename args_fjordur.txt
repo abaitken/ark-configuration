@@ -1,0 +1,7 @@
+map=????
+SessionName=Exilers on Fjordur
+Port=7799
+#7800
+QueryPort=27057
+RCONPort=27091
+AltSaveDirectoryName=CrystalIsles
