@@ -6,18 +6,10 @@ ServerIP=192.168.1.5
 ServerPassword=SERVER_PASSWORD_GOES_HERE
 ServerAdminPassword=ADMIN_PASSWORD_GOES_HERE
 MaxPlayers=8
-#customdynamicconfigurl="file:///C:/Data/ark/dynamicconfig.ini"
 customdynamicconfigurl=https://git.apps.lan/games/ark/raw/branch/main/dynamicconfig.ini
-#CustomLiveTuningUrl="file:///C:/Data/ark/DefaultOverloads.json"
 CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverloads.json"
 RCONEnabled=True
-GameModIds=731604991
 ClusterId=exilers01
-MaxTributeDinos=250
-MaxTributeItems=150
-TributeItemExpirationSeconds=31536000
-TributeDinoExpirationSeconds=31536000
-TributeCharacterExpirationSeconds=31536000
 ClusterDirOverride=C:\Data\ark-clusters
 
 AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -NoBattlEye
@@ -27,3 +19,13 @@ AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="
 # -activeevent=WinterWonderland
 # -ActiveEvent=vday
 # -NewYearEvent
+
+
+#-d3d10
+#Windows Only, The game is forced to use DX10 instead of DX11 by sm4. This will reduce the graphics engine to a lesser version, reducing some graphics, but raising the framerate. 
+
+#-lowmemory
+#Launch options that reduces graphics and audio effects to save about 800 MB RAM, likely enabling 4GB RAM players to get past infinite-loading screens 
+
+#-crossplay
+#Enables Crossplay (between EPIC and Steam) on Dedicated Server
