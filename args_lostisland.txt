@@ -1,7 +1,7 @@
 map=LostIsland
 SessionName=Exilers on Lost Island
 Port=7785
-#7786
+PortRawUDP=7786
 QueryPort=27019
 RCONPort=27084
 AltSaveDirectoryName=LostIsland

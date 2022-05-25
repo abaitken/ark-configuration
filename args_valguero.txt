@@ -1,7 +1,7 @@
-map=????
+map=Valguero_P
 SessionName=Exilers on Valguero
 Port=7795
-#7796
+PortRawUDP=7796
 QueryPort=27055
 RCONPort=27089
 AltSaveDirectoryName=Valguero

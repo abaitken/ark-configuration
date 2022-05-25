@@ -1,7 +1,7 @@
-map=????
+map=Genesis
 SessionName=Exilers on Genesis 1
 Port=7791
-#7792
+PortRawUDP=7792
 QueryPort=27053
 RCONPort=27087
 AltSaveDirectoryName=Gen1

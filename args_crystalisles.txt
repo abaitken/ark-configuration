@@ -1,7 +1,7 @@
-map=????
+map=CrystalIsles
 SessionName=Exilers on Crystal Isles
 Port=7797
-#7798
+PortRawUDP=7798
 QueryPort=27056
 RCONPort=27090
 AltSaveDirectoryName=CrystalIsles

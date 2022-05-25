@@ -1,7 +1,7 @@
-map=????
+map=Aberration_P
 SessionName=Exilers on Abberation
 Port=7787
-#7788
+PortRawUDP=7788
 QueryPort=27051
 RCONPort=27085
 AltSaveDirectoryName=Abberation
