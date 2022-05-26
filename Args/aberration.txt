@@ -1,7 +1,7 @@
 map=Aberration_P
-SessionName=Exilers on Abberation
+SessionName=Exilers on Aberration
 Port=7787
 PortRawUDP=7788
 QueryPort=27051
 RCONPort=27085
-AltSaveDirectoryName=Abberation
+AltSaveDirectoryName=Aberration
