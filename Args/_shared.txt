@@ -12,14 +12,14 @@ RCONEnabled=True
 ClusterId=exilers01
 ClusterDirOverride=C:\Data\ark-clusters
 
-AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -NoBattlEye
+AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -NoBattlEye -noundermeshchecking -noundermeshkilling
+
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
 # -ActiveEvent=FearEvolved
 # -activeevent=WinterWonderland
 # -ActiveEvent=vday
 # -NewYearEvent
-
 
 #-d3d10
 #Windows Only, The game is forced to use DX10 instead of DX11 by sm4. This will reduce the graphics engine to a lesser version, reducing some graphics, but raising the framerate. 
