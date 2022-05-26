@@ -25,6 +25,11 @@
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
                     "RemoteTarget": "/ark-dino-tracker/data/wild.json"
+                },
+                {
+                    "Id": "raw_save_file",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\TheIsland.ark"
                 }
             ]
         },
@@ -59,6 +64,11 @@
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
                     "RemoteTarget": "/ark-dino-tracker/data/se-structures.json"
+                },
+                {
+                    "Id": "raw_save_file",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\ScorchedEarth_P.ark"
                 }
             ]
         }
