@@ -27,6 +27,14 @@
                     "RemoteTarget": "/ark-dino-tracker/data/wild.json"
                 },
                 {
+                    "Id": "structure_locations",
+                    "Scheme": "sftp",
+                    "Host": "SFTP_HOSTNAME",
+                    "Username": "SFTP_USERNAME",
+                    "Password": "SFTP_PASSWORD",
+                    "RemoteTarget": "/ark-dino-tracker/data/structures.json"
+                },
+                {
                     "Id": "disable_raw_save_file",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\ark\\backups\\TheIsland.ark"
