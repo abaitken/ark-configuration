@@ -16,7 +16,7 @@
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/tamed.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ti-tamed.json"
                 },
                 {
                     "Id": "wild_creature_locations",
@@ -24,7 +24,7 @@
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/wild.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ti-wild.json"
                 },
                 {
                     "Id": "structure_locations",
@@ -32,7 +32,7 @@
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/structures.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ti-structures.json"
                 },
                 {
                     "Id": "disable_raw_save_file",
