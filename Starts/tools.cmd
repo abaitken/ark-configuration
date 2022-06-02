@@ -11,4 +11,4 @@ cd /d C:\Software\ARKon
 if /i "%_launch_a%" EQU "y" start ARKon.exe
 
 cd /d C:\Software\ArkDataProcessor-Release\Release\
-if /i "%_launch_c%" EQU "y" start "Ark Data Processor - Scorched Earth" ArkDataProcessor.exe -c "C:\Data\ark\DataProcessorConfigs\ArkConfig.json"
+if /i "%_launch_c%" EQU "y" start "Ark Data Processor" ArkDataProcessor.exe -c "C:\Data\ark\DataProcessorConfigs\ArkConfig.json"
