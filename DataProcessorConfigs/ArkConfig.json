@@ -11,20 +11,20 @@
                     "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
                 },
                 {
-                    "Id": "tamed_creature_locations",
+                    "Id": "tamed_creature_locations_chunked",
                     "Scheme": "sftp",
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/ti-tamed.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ti-tamed/"
                 },
                 {
-                    "Id": "wild_creature_locations",
+                    "Id": "wild_creature_locations_chunked",
                     "Scheme": "sftp",
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/ti-wild.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ti-wild/"
                 },
                 {
                     "Id": "structure_locations",
@@ -50,20 +50,20 @@
                     "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
                 },
                 {
-                    "Id": "tamed_creature_locations",
+                    "Id": "tamed_creature_locations_chunked",
                     "Scheme": "sftp",
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/se-tamed.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/se-tamed/"
                 },
                 {
-                    "Id": "wild_creature_locations",
+                    "Id": "wild_creature_locations_chunked",
                     "Scheme": "sftp",
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/se-wild.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/se-wild/"
                 },
                 {
                     "Id": "structure_locations",
@@ -89,20 +89,20 @@
                     "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
                 },
                 {
-                    "Id": "tamed_creature_locations",
+                    "Id": "tamed_creature_locations_chunked",
                     "Scheme": "sftp",
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/ab-tamed.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ab-tamed/"
                 },
                 {
-                    "Id": "wild_creature_locations",
+                    "Id": "wild_creature_locations_chunked",
                     "Scheme": "sftp",
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-dino-tracker/data/ab-wild.json"
+                    "RemoteTarget": "/ark-dino-tracker/data/ab-wild/"
                 },
                 {
                     "Id": "structure_locations",
