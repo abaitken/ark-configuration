@@ -113,7 +113,7 @@
             "Filters": [
                 {
                     "Id": "structure_locations_unknown",
-                    "Include": [ "??" ]
+                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C" ]
                 },
                 {
                     "Id": "wild_creature_locations",
