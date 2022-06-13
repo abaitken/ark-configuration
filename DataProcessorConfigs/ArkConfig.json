@@ -112,7 +112,7 @@
             "FilePath": "C:\\Games\\arkab\\ShooterGame\\Saved\\Aberration\\Aberration_P.ark",
             "Filters": [
                 {
-                    "Id": "structure_locations_unknown",
+                    "Id": "structure_locations",
                     "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C" ]
                 },
                 {
