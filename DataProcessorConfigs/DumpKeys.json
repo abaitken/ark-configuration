@@ -1,0 +1,36 @@
+{
+    "LongDelay": 300,
+    "ShortDelay": 5,
+    "MonitoringSources": [
+        {            
+            "FilePath": "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-is.json"
+                }
+            ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkse\\ShooterGame\\Saved\\Scorched\\ScorchedEarth_P.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-se.json"
+                }
+            ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkab\\ShooterGame\\Saved\\Aberration\\Aberration_P.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-ab.json"
+                }
+            ]
+        }
+    ]
+}
