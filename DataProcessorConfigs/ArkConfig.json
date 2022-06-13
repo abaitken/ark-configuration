@@ -4,6 +4,20 @@
     "MonitoringSources": [
         {            
             "FilePath": "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
+            "Filters": [
+                {
+                    "Id": "structure_locations",
+                    "Include": [ "BeaverDam_C" ]
+                },
+                {
+                    "Id": "wild_creature_locations",
+                    "Exclude": [ "Coel_Character_BP_Ocean_C", "Coel_Character_BP_C" ]
+                },
+                {
+                    "Id": "wild_creature_locations_chunked",
+                    "Exclude": [ "Coel_Character_BP_Ocean_C", "Coel_Character_BP_C" ]
+                }
+            ],
             "UploadTargets": [
                 {
                     "Id": "disabled_tamed_breeding_data",
@@ -43,6 +57,20 @@
         },
         {            
             "FilePath": "C:\\Games\\arkse\\ShooterGame\\Saved\\Scorched\\ScorchedEarth_P.ark",
+            "Filters": [
+                {
+                    "Id": "structure_locations",
+                    "Include": [ "WyvernNest_C" ]
+                },
+                {
+                    "Id": "wild_creature_locations",
+                    "Exclude": [ "Coel_Character_BP_C", "Jugbug_Oil_Character_BP_C", "Jugbug_Water_Character_BP_C" ]
+                },
+                {
+                    "Id": "wild_creature_locations_chunked",
+                    "Exclude": [ "Coel_Character_BP_C", "Jugbug_Oil_Character_BP_C", "Jugbug_Water_Character_BP_C" ]
+                }
+            ],
             "UploadTargets": [
                 {
                     "Id": "disabled_tamed_breeding_data",
@@ -82,6 +110,20 @@
         },
         {            
             "FilePath": "C:\\Games\\arkab\\ShooterGame\\Saved\\Aberration\\Aberration_P.ark",
+            "Filters": [
+                {
+                    "Id": "structure_locations_unknown",
+                    "Include": [ "??" ]
+                },
+                {
+                    "Id": "wild_creature_locations",
+                    "Exclude": [ "Coel_Character_BP_Aberrant_C" ]
+                },
+                {
+                    "Id": "wild_creature_locations_chunked",
+                    "Exclude": [ "Coel_Character_BP_Aberrant_C" ]
+                }
+            ],
             "UploadTargets": [
                 {
                     "Id": "disabled_tamed_breeding_data",
