@@ -52,6 +52,11 @@
                     "Id": "disable_raw_save_file",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\ark\\backups\\TheIsland.ark"
+                },
+                {
+                    "Id": "rolling_backup",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\_backups\\arkis\\rolling"
                 }
             ]
         },
@@ -105,6 +110,11 @@
                     "Id": "disable_raw_save_file",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\ark\\backups\\ScorchedEarth_P.ark"
+                },
+                {
+                    "Id": "rolling_backup",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\_backups\\arkse\\rolling"
                 }
             ]
         },
@@ -158,6 +168,11 @@
                     "Id": "disable_raw_save_file",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\ark\\backups\\Aberration_P.ark"
+                },
+                {
+                    "Id": "rolling_backup",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\_backups\\arkab\\rolling"
                 }
             ]
         }
