@@ -1,6 +1,16 @@
 {
     "LongDelay": 300,
     "ShortDelay": 5,
+    "SharedSettings": [
+        {
+            "Key": "ARKStatsExtractorPath",
+            "Value": "C:\\Software\\ARKStatsExtractor-Debug\\Debug\\ARK Smart Breeding.exe"
+        },
+        {
+            "Key": "ARKStatsExtractorTimeout",
+            "Value": 30
+        }
+    ],
     "MonitoringSources": [
         {            
             "FilePath": "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
@@ -57,6 +67,18 @@
                     "Id": "rolling_backup",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\_backups\\arkis\\rolling"
+                },
+                {
+                    "Id": "import_smart_breeding_library",
+                    "Scheme": "sftp",
+                    "Host": "SFTP_HOSTNAME",
+                    "Username": "SFTP_USERNAME",
+                    "Password": "SFTP_PASSWORD",
+                    "RemoteTarget": "/ark-breeding-data/data/ti.asb",
+                    "Custom": 
+                    {
+                        "ServerName": "Exilers on The Island"
+                    }
                 }
             ]
         },
@@ -115,6 +137,18 @@
                     "Id": "rolling_backup",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\_backups\\arkse\\rolling"
+                },
+                {
+                    "Id": "import_smart_breeding_library",
+                    "Scheme": "sftp",
+                    "Host": "SFTP_HOSTNAME",
+                    "Username": "SFTP_USERNAME",
+                    "Password": "SFTP_PASSWORD",
+                    "RemoteTarget": "/ark-breeding-data/data/se.asb",
+                    "Custom": 
+                    {
+                        "ServerName": "Exilers on Scorched Earth"
+                    }
                 }
             ]
         },
@@ -173,6 +207,18 @@
                     "Id": "rolling_backup",
                     "Scheme": "copy",
                     "RemoteTarget": "C:\\Data\\_backups\\arkab\\rolling"
+                },
+                {
+                    "Id": "import_smart_breeding_library",
+                    "Scheme": "sftp",
+                    "Host": "SFTP_HOSTNAME",
+                    "Username": "SFTP_USERNAME",
+                    "Password": "SFTP_PASSWORD",
+                    "RemoteTarget": "/ark-breeding-data/data/ab.asb",
+                    "Custom": 
+                    {
+                        "ServerName": "Exilers on Aberration"
+                    }
                 }
             ]
         }
