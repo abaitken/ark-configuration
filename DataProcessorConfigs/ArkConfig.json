@@ -74,7 +74,7 @@
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-breeding-data/data/ti.asb",
+                    "RemoteTarget": "/ark-breeding-data/data/island.asb",
                     "Custom": 
                     {
                         "ServerName": "Exilers on The Island"
@@ -144,7 +144,7 @@
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-breeding-data/data/se.asb",
+                    "RemoteTarget": "/ark-breeding-data/data/scorched.asb",
                     "Custom": 
                     {
                         "ServerName": "Exilers on Scorched Earth"
@@ -214,7 +214,7 @@
                     "Host": "SFTP_HOSTNAME",
                     "Username": "SFTP_USERNAME",
                     "Password": "SFTP_PASSWORD",
-                    "RemoteTarget": "/ark-breeding-data/data/ab.asb",
+                    "RemoteTarget": "/ark-breeding-data/data/aberration.asb",
                     "Custom": 
                     {
                         "ServerName": "Exilers on Aberration"
