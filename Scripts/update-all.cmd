@@ -7,6 +7,7 @@ call %scriptsdir%_generate_scripts.cmd
 set prefix=update_
 cd /d C:\steamcmd
 
+steamcmd +runscript %scriptsdir%%prefix%arkex.txt
 steamcmd +runscript %scriptsdir%%prefix%arkab.txt
 steamcmd +runscript %scriptsdir%%prefix%arkse.txt
 steamcmd +runscript %scriptsdir%%prefix%arkis.txt

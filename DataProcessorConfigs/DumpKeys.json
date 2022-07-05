@@ -31,6 +31,16 @@
                     "RemoteTarget": "C:\\Data\\ark\\backups\\keys-ab.json"
                 }
             ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkab\\ShooterGame\\Saved\\Extinction\\Extinction.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-ex.json"
+                }
+            ]
         }
     ]
 }
