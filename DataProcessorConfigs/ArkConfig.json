@@ -17,7 +17,7 @@
             "Filters": [
                 {
                     "Id": "structure_locations",
-                    "Include": [ "BeaverDam_C" ]
+                    "Include": [ "BeaverDam_C", "Zipline_Anchor_C" ]
                 },
                 {
                     "Id": "wild_creature_locations",
@@ -87,7 +87,7 @@
             "Filters": [
                 {
                     "Id": "structure_locations",
-                    "Include": [ "WyvernNest_C" ]
+                    "Include": [ "WyvernNest_C", "Zipline_Anchor_C" ]
                 },
                 {
                     "Id": "wild_creature_locations",
@@ -227,15 +227,15 @@
             "Filters": [
                 {
                     "Id": "structure_locations",
-                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C" ]
+                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C" ]
                 },
                 {
                     "Id": "wild_creature_locations",
-                    "Exclude": [ "Coel_Character_BP_Aberrant_C" ]
+                    "Exclude": [ "Coel_Character_BP_C" ]
                 },
                 {
                     "Id": "wild_creature_locations_chunked",
-                    "Exclude": [ "Coel_Character_BP_Aberrant_C" ]
+                    "Exclude": [ "Coel_Character_BP_C" ]
                 }
             ],
             "UploadTargets": [
