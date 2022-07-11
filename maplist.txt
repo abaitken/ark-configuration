@@ -1,6 +1,6 @@
 island
 scorched
-abberation
+aberration
 extinction
 gen1
 gen2
