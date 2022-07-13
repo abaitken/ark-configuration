@@ -3,8 +3,6 @@ set confirm=
 set /p confirm=Are you sure? [y/N]:
 if /i "%confirm%" NEQ "Y" goto :eof
 cd /d "%~dp0"
-xcopy /y /E "Island\ShooterGame\Saved\Config\WindowsServer\" "C:\Games\ark\ShooterGame\Saved\Config\WindowsServer"
-xcopy /y /E "Scorched\ShooterGame\Saved\Config\WindowsServer" "C:\Games\arkse\ShooterGame\Saved\Config\WindowsServer\*.ini"
-xcopy /y /E "Aberration\ShooterGame\Saved\Config\WindowsServer" "C:\Games\arkab\ShooterGame\Saved\Config\WindowsServer\*.ini"
-xcopy /y /E "Extinction\ShooterGame\Saved\Config\WindowsServer" "C:\Games\arkex\ShooterGame\Saved\Config\WindowsServer\*.ini"
+
+for /f "eol=# tokens=1,2 delims=," %%i in (list.txt) do if exist "%%j" xcopy /y /E "%%i\ShooterGame\Saved\Config\WindowsServer\" "C:\Games\%%j\ShooterGame\Saved\Config\WindowsServer\"
 pause

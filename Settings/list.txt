@@ -1,0 +1,7 @@
+#SourceFolder,TargetFolder
+Island,ark
+Scorched,arkse
+Aberration,arkab
+Extinction,arkex
+Genesis1,arkg1
+Genesis2,arkg2
