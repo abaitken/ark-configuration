@@ -1,0 +1,14 @@
+[ServerSettings]
+DayCycleSpeedScale=1.2
+DayTimeSpeedScale=0.60000
+NightTimeSpeedScale=1.20000
+RCONPort=27081
+
+[MessageOfTheDay]
+Duration=5
+Message=Welcome to the Exilers on Scorched Earth server
+
+[SessionSettings]
+SessionName=Exilers on Scorched Earth
+
+

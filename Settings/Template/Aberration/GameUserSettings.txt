@@ -1,0 +1,11 @@
+[ServerSettings]
+RCONPort=27085
+
+[MessageOfTheDay]
+Duration=5
+Message=Welcome to the Exilers on Aberration server
+
+[SessionSettings]
+SessionName=Exilers on Aberration
+
+
