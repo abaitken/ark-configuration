@@ -1,0 +1,10 @@
+[ServerSettings]
+RCONPort=27089
+
+[MessageOfTheDay]
+Message=Welcome to the Exilers on Valguero server
+
+[SessionSettings]
+SessionName=Exilers on Valguero
+
+

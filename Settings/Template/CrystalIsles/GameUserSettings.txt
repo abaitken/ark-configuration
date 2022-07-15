@@ -1,0 +1,10 @@
+[ServerSettings]
+RCONPort=27090
+
+[MessageOfTheDay]
+Message=Welcome to the Exilers on Crystal Isles server
+
+[SessionSettings]
+SessionName=Exilers on Crystal Isles
+
+

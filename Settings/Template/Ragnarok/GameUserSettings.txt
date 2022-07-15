@@ -1,0 +1,10 @@
+[ServerSettings]
+RCONPort=27083
+
+[MessageOfTheDay]
+Message=Welcome to the Exilers on The Center server
+
+[SessionSettings]
+SessionName=Exilers on The Center
+
+

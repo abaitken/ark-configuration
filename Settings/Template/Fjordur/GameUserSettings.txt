@@ -1,0 +1,10 @@
+[ServerSettings]
+RCONPort=27091
+
+[MessageOfTheDay]
+Message=Welcome to the Exilers on Fjordur server
+
+[SessionSettings]
+SessionName=Exilers on Fjordur
+
+

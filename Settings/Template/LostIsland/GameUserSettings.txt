@@ -1,0 +1,10 @@
+[ServerSettings]
+RCONPort=27084
+
+[MessageOfTheDay]
+Message=Welcome to the Exilers on Lost Island server
+
+[SessionSettings]
+SessionName=Exilers on Lost Island
+
+
