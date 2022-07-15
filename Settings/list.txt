@@ -5,3 +5,9 @@ Aberration,arkab
 Extinction,arkex
 Genesis1,arkg1
 Genesis2,arkg2
+CrystalIsles,arkci
+Fjordur,arkfj
+LostIsland,arkli
+Ragnarok,arkra
+TheCenter,arktc
+Valguero,arkva
