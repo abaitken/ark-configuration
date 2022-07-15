@@ -1,0 +1,3 @@
+[StructuresPlus]
+NoFoundationsRequired=true
+RaidTimerLimitMultiplier=2

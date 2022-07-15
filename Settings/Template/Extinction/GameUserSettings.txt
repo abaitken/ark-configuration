@@ -2,7 +2,6 @@
 RCONPort=27086
 
 [MessageOfTheDay]
-Duration=5
 Message=Welcome to the Exilers on Extinction server
 
 [SessionSettings]

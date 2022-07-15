@@ -1,21 +1,4 @@
 [/script/shootergame.shootergamemode]
-ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemConsumable_RawPrimeMeat_C",Quantity=(MaxItemQuantity=10, bIgnoreMultiplier=true))
-ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemConsumable_RawMutton_C",Quantity=(MaxItemQuantity=10, bIgnoreMultiplier=true))
-ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_Polymer_Organic_C",Quantity=(MaxItemQuantity=100,bIgnoreMultiplier=true))
-ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_BlackPearl_C",Quantity=(MaxItemQuantity=50,bIgnoreMultiplier=true))
-ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_CorruptedPolymer_C",Quantity=(MaxItemQuantity=100,bIgnoreMultiplier=true))
-EnableCryoSicknessPVE=False
-EnableCryopodNerf=True
-CryopodNerfDuration=5
-CryopodNerfDamageMult=0.01
-CryopodNerfIncomingDamageMultPercent=0.01
-GlobalSpoilingTimeMultiplier=4.0
-GlobalItemDecompositionTimeMultiplier=2.0
-GlobalCorpseDecompositionTimeMultiplier=2.0
-PerLevelStatsMultiplier_Player[7]=1.2
-PerLevelStatsMultiplier_DinoTamed[7]=1.2
-SupplyCrateLootQualityMultiplier=4.000000
-bDisableStructurePlacementCollision=true
 OverridePlayerLevelEngramPoints=0
 OverridePlayerLevelEngramPoints=8
 OverridePlayerLevelEngramPoints=8
@@ -196,10 +179,3 @@ OverridePlayerLevelEngramPoints=1
 OverridePlayerLevelEngramPoints=1
 OverridePlayerLevelEngramPoints=1
 OverridePlayerLevelEngramPoints=1
-
-[ModInstaller]
-ModIDS=731604991
-ModIDS=793605978
-ModIDS=1404697612
-
-

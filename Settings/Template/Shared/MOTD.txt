@@ -1,0 +1,3 @@
+[MessageOfTheDay]
+Duration=5
+Message=Welcome to the Exilers ARK Cluster

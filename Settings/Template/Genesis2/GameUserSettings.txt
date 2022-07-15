@@ -2,7 +2,6 @@
 RCONPort=27088
 
 [MessageOfTheDay]
-Duration=5
 Message=Welcome to the Exilers on Genesis 2 server
 
 [SessionSettings]

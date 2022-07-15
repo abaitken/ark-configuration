@@ -5,7 +5,6 @@ NightTimeSpeedScale=1.20000
 RCONPort=27080
 
 [MessageOfTheDay]
-Duration=5
 Message=Welcome to the Exilers on The Island server
 
 [SessionSettings]
