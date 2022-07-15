@@ -3,6 +3,6 @@ ServerSettings.txt
 ScalabilityGroups.txt
 GameSession.txt
 MOTD.txt
-mod-AntiTheft.txt
+;mod-AntiTheft.txt
 mod-StructuresPlus.txt
 SessionSettings.txt
