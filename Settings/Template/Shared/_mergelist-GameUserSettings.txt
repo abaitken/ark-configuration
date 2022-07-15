@@ -1,4 +1,4 @@
-GameUserSettings.base.txt
+base-GameUserSettings.txt
 ServerSettings.txt
 ScalabilityGroups.txt
 GameSession.txt
