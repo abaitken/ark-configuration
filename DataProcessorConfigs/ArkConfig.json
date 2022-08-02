@@ -227,7 +227,7 @@
             "Filters": [
                 {
                     "Id": "structure_locations",
-                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C" ]
+                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C", "BeaverDam_C", "ElementWall_Horde_C", "ElementWall_Horde_3_C" ]
                 },
                 {
                     "Id": "wild_creature_locations",
