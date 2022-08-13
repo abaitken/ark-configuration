@@ -1,3 +1,4 @@
 [StructuresPlus]
 NoFoundationsRequired=true
 RaidTimerLimitMultiplier=2
+CloningCostMultiplier=0.1
