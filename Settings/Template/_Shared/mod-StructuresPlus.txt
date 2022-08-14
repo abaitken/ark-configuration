@@ -4,3 +4,4 @@ RaidTimerLimitMultiplier=2
 CloningCostMultiplier=0.1
 ReplicatorScaleMultiplier=0.5
 AllowGrindingMissionRewards=true
+MutatorPulseCost=1
