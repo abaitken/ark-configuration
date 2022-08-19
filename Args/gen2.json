@@ -1,0 +1,18 @@
+{
+    "id": "ark-gen2",
+    "name": "ARK: Survival Evolved, map: Genesis 2",
+    "game-command": {
+        "values": [ "_shared.txt", "gen2.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\arkg2\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}

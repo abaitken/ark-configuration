@@ -1,0 +1,18 @@
+{
+    "id": "ark-aberration",
+    "name": "ARK: Survival Evolved, map: Aberration",
+    "game-command": {
+        "values": [ "_shared.txt", "aberration.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\arkab\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "ark-ragnarok",
+    "name": "ARK: Survival Evolved, map: Ragnarok",
+    "game-command": {
+        "values": [ "_shared.txt", "ragnarok.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\arkrag\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}

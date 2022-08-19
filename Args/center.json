@@ -1,0 +1,18 @@
+{
+    "id": "ark-center",
+    "name": "ARK: Survival Evolved, map: The Center",
+    "game-command": {
+        "values": [ "_shared.txt", "center.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\arktc\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}

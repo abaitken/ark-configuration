@@ -1,0 +1,18 @@
+{
+    "id": "ark-fjordur",
+    "name": "ARK: Survival Evolved, map: Fjordur",
+    "game-command": {
+        "values": [ "_shared.txt", "fjordur.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\arkfj\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}

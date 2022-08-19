@@ -1,0 +1,18 @@
+{
+    "id": "ark-extinction",
+    "name": "ARK: Survival Evolved, map: Extinction",
+    "game-command": {
+        "values": [ "_shared.txt", "extinction.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\arkex\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}

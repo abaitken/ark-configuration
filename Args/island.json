@@ -1,0 +1,18 @@
+{
+    "id": "ark-island",
+    "name": "ARK: Survival Evolved, map: The Island",
+    "game-command": {
+        "values": [ "_shared.txt", "island.txt", "_compose.txt" ],
+        "workdir": "C:\\Games\\ark\\ShooterGame\\Binaries\\Win64",
+        "executable": "ShooterGame.exe",
+        "args": "!Args!"
+    },
+    "rcon": {
+        "module": "UnrealEngine4",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 6000,
+        "cpu": 10
+    }
+}
