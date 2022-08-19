@@ -1,0 +1,17 @@
+{
+    "id": "ark-tools",
+    "name": "ARK: Survival Evolved, Data Processing Service",
+    "game-command": {
+        "workdir": "C:\\Software\\ArkDataProcessor-Release\\Release",
+        "executable": "ArkDataProcessor.exe",
+        "args": "-c \"C:\\Data\\ark\\DataProcessorConfigs\\ArkConfig.json\""
+    },
+    "rcon": {
+        "module": "ASPNetService",
+        "port": "!RCON!"
+    },
+    "cost": {
+        "mem": 10,
+        "cpu": 1
+    }
+}
