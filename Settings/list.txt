@@ -8,6 +8,6 @@ Genesis2,arkg2
 CrystalIsles,arkci
 Fjordur,arkfj
 LostIsland,arkli
-Ragnarok,arkra
+Ragnarok,arkrag
 TheCenter,arktc
 Valguero,arkva

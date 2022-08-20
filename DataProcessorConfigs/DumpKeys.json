@@ -41,6 +41,16 @@
                     "RemoteTarget": "C:\\Data\\ark\\backups\\keys-ex.json"
                 }
             ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkrag\\ShooterGame\\Saved\\Extinction\\Ragnarok.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-rag.json"
+                }
+            ]
         }
     ]
 }

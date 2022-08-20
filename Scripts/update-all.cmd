@@ -11,4 +11,5 @@ steamcmd +runscript %scriptsdir%%prefix%arkex.txt
 steamcmd +runscript %scriptsdir%%prefix%arkab.txt
 steamcmd +runscript %scriptsdir%%prefix%arkse.txt
 steamcmd +runscript %scriptsdir%%prefix%arkis.txt
+steamcmd +runscript %scriptsdir%%prefix%arkrag.txt
 pause
