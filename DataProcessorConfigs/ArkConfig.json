@@ -297,7 +297,7 @@
             "Filters": [
                 {
                     "Id": "structure_locations",
-                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C", "BeaverDam_C", "ElementWall_Horde_C", "ElementWall_Horde_3_C" ]
+                    "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C", "BeaverDam_C" ]
                 },
                 {
                     "Id": "wild_creature_locations",
@@ -346,7 +346,7 @@
                 {
                     "Id": "rolling_backup",
                     "Scheme": "copy",
-                    "RemoteTarget": "C:\\Data\\_backups\\arkex\\rolling"
+                    "RemoteTarget": "C:\\Data\\_backups\\arkrag\\rolling"
                 },
                 {
                     "Id": "import_smart_breeding_library",
