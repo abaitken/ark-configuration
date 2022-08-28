@@ -1,10 +1,10 @@
 [ServerSettings]
-RCONPort=27083
+RCONPort=27082
 
 [MessageOfTheDay]
-Message=Welcome to the Exilers on The Center server
+Message=Welcome to the Exilers on Ragnarok server
 
 [SessionSettings]
-SessionName=Exilers on The Center
+SessionName=Exilers on Ragnarok
 
 
