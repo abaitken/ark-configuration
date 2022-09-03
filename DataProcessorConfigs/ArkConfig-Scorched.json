@@ -16,11 +16,6 @@
     ],
     "UploadTargets": [
         {
-            "Id": "disabled_tamed_breeding_data",
-            "Scheme": "copy",
-            "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
-        },
-        {
             "Id": "tamed_creature_locations_chunked",
             "Scheme": "sftp",
             "Host": "SFTP_HOSTNAME",
@@ -43,11 +38,6 @@
             "Username": "SFTP_USERNAME",
             "Password": "SFTP_PASSWORD",
             "RemoteTarget": "/ark-dino-tracker/data/se-structures.json"
-        },
-        {
-            "Id": "disable_raw_save_file",
-            "Scheme": "copy",
-            "RemoteTarget": "C:\\Data\\ark\\backups\\ScorchedEarth_P.ark"
         },
         {
             "Id": "rolling_backup",
