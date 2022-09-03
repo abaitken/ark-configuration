@@ -1,0 +1,70 @@
+{            
+    "FilePath": "C:\\Games\\arkex\\ShooterGame\\Saved\\Extinction\\Extinction.ark",
+    "Filters": [
+        {
+            "Id": "structure_locations",
+            "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C", "BeaverDam_C", "ElementWall_Horde_C", "ElementWall_Horde_3_C" ]
+        },
+        {
+            "Id": "wild_creature_locations",
+            "Exclude": [ "Coel_Character_BP_C" ]
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Exclude": [ "Coel_Character_BP_C" ]
+        }
+    ],
+    "UploadTargets": [
+        {
+            "Id": "disabled_tamed_breeding_data",
+            "Scheme": "copy",
+            "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
+        },
+        {
+            "Id": "tamed_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/ex-tamed/"
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/ex-wild/"
+        },
+        {
+            "Id": "structure_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/ex-structures.json"
+        },
+        {
+            "Id": "disable_raw_save_file",
+            "Scheme": "copy",
+            "RemoteTarget": "C:\\Data\\ark\\backups\\Extinction.ark"
+        },
+        {
+            "Id": "rolling_backup",
+            "Scheme": "copy",
+            "RemoteTarget": "C:\\Data\\_backups\\arkex\\rolling"
+        },
+        {
+            "Id": "import_smart_breeding_library",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-breeding-data/data/extinction.asb",
+            "Custom": 
+            {
+                "ServerName": "Exilers on Extinction"
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{            
+    "FilePath": "C:\\Games\\ark\\ShooterGame\\Saved\\Island\\TheIsland.ark",
+    "Filters": [
+        {
+            "Id": "structure_locations",
+            "Include": [ "BeaverDam_C", "Zipline_Anchor_C" ]
+        },
+        {
+            "Id": "wild_creature_locations",
+            "Exclude": [ "Coel_Character_BP_Ocean_C", "Coel_Character_BP_C" ]
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Exclude": [ "Coel_Character_BP_Ocean_C", "Coel_Character_BP_C" ]
+        }
+    ],
+    "UploadTargets": [
+        {
+            "Id": "disabled_tamed_breeding_data",
+            "Scheme": "copy",
+            "RemoteTarget": "D:\\Users\\abaitken\\Desktop\\ARK\\temp\\tamed_breeding_data.tsv"
+        },
+        {
+            "Id": "tamed_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/ti-tamed/"
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/ti-wild/"
+        },
+        {
+            "Id": "structure_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/ti-structures.json"
+        },
+        {
+            "Id": "disable_raw_save_file",
+            "Scheme": "copy",
+            "RemoteTarget": "C:\\Data\\ark\\backups\\TheIsland.ark"
+        },
+        {
+            "Id": "rolling_backup",
+            "Scheme": "copy",
+            "RemoteTarget": "C:\\Data\\_backups\\arkis\\rolling"
+        },
+        {
+            "Id": "import_smart_breeding_library",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-breeding-data/data/island.asb",
+            "Custom": 
+            {
+                "ServerName": "Exilers on The Island"
+            }
+        }
+    ]
+}
