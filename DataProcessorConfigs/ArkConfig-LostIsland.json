@@ -1,0 +1,60 @@
+{            
+    "FilePath": "C:\\Games\\arkrag\\ShooterGame\\Saved\\LoadIsland\\LostIsland.ark",
+    "Filters": [
+        {
+            "Id": "structure_locations",
+            "Include": [ "RockDrakeNest_C", "Zipline_Anchor_C", "WyvernNest_C", "BeaverDam_C" ]
+        },
+        {
+            "Id": "wild_creature_locations",
+            "Exclude": [ "Coel_Character_BP_C" ]
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Exclude": [ "Coel_Character_BP_C" ]
+        }
+    ],
+    "UploadTargets": [
+        {
+            "Id": "tamed_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/li-tamed/"
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/li-wild/"
+        },
+        {
+            "Id": "structure_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/li-structures.json"
+        },
+        {
+            "Id": "rolling_backup",
+            "Scheme": "copy",
+            "RemoteTarget": "C:\\Data\\_backups\\arkli\\rolling"
+        },
+        {
+            "Id": "import_smart_breeding_library",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-breeding-data/data/lostisland.asb",
+            "Custom": 
+            {
+                "ServerName": "Exilers on Lost Island"
+            }
+        }
+    ]
+}

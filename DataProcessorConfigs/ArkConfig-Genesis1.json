@@ -1,0 +1,60 @@
+{            
+    "FilePath": "C:\\Games\\arkg1\\ShooterGame\\Saved\\Genesis\\Genesis.ark",
+    "Filters": [
+        {
+            "Id": "structure_locations",
+            "Include": [ "BeaverDam_C", "Zipline_Anchor_C" ]
+        },
+        {
+            "Id": "wild_creature_locations",
+            "Exclude": [ "Coel_Character_BP_Ocean_C", "Coel_Character_BP_C" ]
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Exclude": [ "Coel_Character_BP_Ocean_C", "Coel_Character_BP_C" ]
+        }
+    ],
+    "UploadTargets": [
+        {
+            "Id": "tamed_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/g1-tamed/"
+        },
+        {
+            "Id": "wild_creature_locations_chunked",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/g1-wild/"
+        },
+        {
+            "Id": "structure_locations",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-dino-tracker/data/g1-structures.json"
+        },
+        {
+            "Id": "rolling_backup",
+            "Scheme": "copy",
+            "RemoteTarget": "C:\\Data\\_backups\\arkg1\\rolling"
+        },
+        {
+            "Id": "import_smart_breeding_library",
+            "Scheme": "sftp",
+            "Host": "SFTP_HOSTNAME",
+            "Username": "SFTP_USERNAME",
+            "Password": "SFTP_PASSWORD",
+            "RemoteTarget": "/ark-breeding-data/data/genesis1.asb",
+            "Custom": 
+            {
+                "ServerName": "Exilers on Genesis 1"
+            }
+        }
+    ]
+}
