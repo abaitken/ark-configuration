@@ -72,4 +72,3 @@ BabyImprintAmountMultiplier=3.0
 CustomRecipeEffectivenessMultiplier=1.0
 HexagonRewardMultiplier=1.0
 HarvestHealthMultiplier=1.5
-ActiveMods=731604991,793605978

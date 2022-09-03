@@ -1,6 +1,7 @@
 base-GameUserSettings.txt
 ServerSettings.txt
 ScalabilityGroups.txt
+Mods-GameUserSettings.txt
 GameSession.txt
 MOTD.txt
 ;mod-AntiTheft.txt
