@@ -16,6 +16,7 @@
         { "ExternalConfiguration": "ArkConfig-Scorched.json" },
         { "ExternalConfiguration": "ArkConfig-Aberration.json" },
         { "ExternalConfiguration": "ArkConfig-Extinction.json" },
-        { "ExternalConfiguration": "ArkConfig-Ragnarok.json" }
+        { "ExternalConfiguration": "ArkConfig-Ragnarok.json" },
+        { "ExternalConfiguration": "ArkConfig-Genesis1.json" }
     ]
 }
