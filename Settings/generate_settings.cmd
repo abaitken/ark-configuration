@@ -13,6 +13,17 @@ goto :eof
 :fn_main
 cd /d "%~dp0"
 
+SETLOCAL ENABLEDELAYEDEXPANSION
+SET MODIDS=
+echo [ModInstaller]>Template\_Shared\Mods-Game.txt
+for /f "eol=# tokens=1* delims=;" %%j in (Template\_Shared\_list-Mods.txt) do echo ModIDS=%%k>>Template\_Shared\Mods-Game.txt
+
+for /f "eol=# tokens=1* delims=;" %%j in (Template\_Shared\_list-Mods.txt) do SET MODIDS=!MODIDS!,%%k
+echo [ServerSettings]>Template\_Shared\Mods-GameUserSettings.txt
+echo ActiveMods=%MODIDS:~1%>>Template\_Shared\Mods-GameUserSettings.txt
+
+ENDLOCAL
+
 for /f "eol=# tokens=1,2 delims=," %%i in (list.txt) do call :fn_GenerateSetting %%i
 
 pause
