@@ -1,2 +1,2 @@
-Args=!map!?listen?SessionName="!SessionName!"?AltSaveDirectoryName=!AltSaveDirectoryName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
+Args=!map!?listen?SessionName="!SessionName!"?AltSaveDirectoryName=!AltSaveDirectoryName!?ServerPassword=!ServerPassword!?ServerAdminPassword=!ServerAdminPassword!?Port=!Port!?QueryPort=!QueryPort!?MaxPlayers=!MaxPlayers!?RCONEnabled=!RCONEnabled!?RCONPort=!RCONPort!?PreventSpawnAnimations=!PreventSpawnAnimations!?customdynamicconfigurl="!customdynamicconfigurl!" !AdditionalFlags!
 

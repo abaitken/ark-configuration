@@ -11,6 +11,7 @@ CustomLiveTuningUrl="http://git.apps.lan/games/ark/raw/branch/main/DefaultOverlo
 RCONEnabled=True
 ClusterId=exilers01
 ClusterDirOverride=C:\Data\ark-clusters
+PreventSpawnAnimations=true
 
 AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -NoBattlEye -noundermeshchecking -noundermeshkilling
 
