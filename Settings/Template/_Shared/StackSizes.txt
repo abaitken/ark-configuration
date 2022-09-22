@@ -5,3 +5,4 @@ ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_Polymer_Organ
 ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_BlackPearl_C",Quantity=(MaxItemQuantity=50,bIgnoreMultiplier=true))
 ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_CorruptedPolymer_C",Quantity=(MaxItemQuantity=100,bIgnoreMultiplier=true))
 ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemResource_Ambergris_C",Quantity=(MaxItemQuantity=10,bIgnoreMultiplier=true))
+ConfigOverrideItemMaxQuantity=(ItemClassString="PrimalItemConsumable_Honey_C",Quantity=(MaxItemQuantity=100,bIgnoreMultiplier=true))
