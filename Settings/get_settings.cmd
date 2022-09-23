@@ -1,5 +1,15 @@
 @echo off
-cd /d "%~dp0"
-for /f "eol=# tokens=1,2 delims=," %%i in (list.txt) do if exist "C:\Games\%%j" copy /y "C:\Games\%%j\ShooterGame\Saved\Config\WindowsServer\*.ini" "Staging\%%i\ShooterGame\Saved\Config\WindowsServer\"
+goto main
 
+:getSettings
+SETLOCAL
+for /f "eol=# tokens=1* delims==" %%i in (..\args\%1.txt) do SET %%i=%%j
+if exist "C:\Games\%GameFolder%" copy /y "C:\Games\%GameFolder%\ShooterGame\Saved\Config\WindowsServer\*.ini" "Staging\%AltSaveDirectoryName%\ShooterGame\Saved\Config\WindowsServer\"
+ENDLOCAL
+
+goto :eof
+
+:main
+cd /d "%~dp0"
+for /f "eol=# tokens=1 delims=" %%a in (..\maplist.txt) do call :getSettings %%a
 pause

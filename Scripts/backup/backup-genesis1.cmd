@@ -1,3 +1,5 @@
 @echo off
-call "C:\Data\_backups\backup.cmd" arkg1 "C:\Games\arkg1\ShooterGame\Saved\*"
+SET ArgFile=gen1
+for /f "eol=# tokens=1* delims==" %%i in (C:\Data\ark\args\%ArgFile%.txt) do SET %%i=%%j
+call "C:\Data\_backups\backup.cmd" %GameFolder% "C:\Games\%GameFolder%\ShooterGame\Saved\*"
 pause
