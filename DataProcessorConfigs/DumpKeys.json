@@ -51,6 +51,16 @@
                     "RemoteTarget": "C:\\Data\\ark\\backups\\keys-rag.json"
                 }
             ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkfj\\ShooterGame\\Saved\\Fjordur\\Fjordur.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-fj.json"
+                }
+            ]
         }
     ]
 }
