@@ -5,3 +5,4 @@ PortRawUDP=7796
 QueryPort=27055
 RCONPort=27089
 AltSaveDirectoryName=Valguero
+GameFolder=arkval

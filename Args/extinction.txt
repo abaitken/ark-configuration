@@ -5,3 +5,4 @@ PortRawUDP=7790
 QueryPort=27052
 RCONPort=27086
 AltSaveDirectoryName=Extinction
+GameFolder=arkex

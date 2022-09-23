@@ -4,4 +4,5 @@ Port=7793
 PortRawUDP=7794
 QueryPort=27054
 RCONPort=27088
-AltSaveDirectoryName=Gen2
+AltSaveDirectoryName=Genesis2
+GameFolder=arkg2

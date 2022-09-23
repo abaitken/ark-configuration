@@ -5,3 +5,4 @@ PortRawUDP=7798
 QueryPort=27056
 RCONPort=27090
 AltSaveDirectoryName=CrystalIsles
+GameFolder=arkci

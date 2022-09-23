@@ -5,3 +5,4 @@ PortRawUDP=7800
 QueryPort=27057
 RCONPort=27091
 AltSaveDirectoryName=Fjordur
+GameFolder=arkfj

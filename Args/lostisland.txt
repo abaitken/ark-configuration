@@ -5,3 +5,4 @@ PortRawUDP=7786
 QueryPort=27019
 RCONPort=27084
 AltSaveDirectoryName=LostIsland
+GameFolder=arkli

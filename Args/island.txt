@@ -5,3 +5,4 @@ PortRawUDP=7778
 QueryPort=27015
 RCONPort=27080
 AltSaveDirectoryName=Island
+GameFolder=ark

@@ -5,3 +5,4 @@ PortRawUDP=7780
 QueryPort=27016
 RCONPort=27081
 AltSaveDirectoryName=Scorched
+GameFolder=arkse

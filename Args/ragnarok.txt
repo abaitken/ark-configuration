@@ -5,3 +5,4 @@ PortRawUDP=7782
 QueryPort=27017
 RCONPort=27082
 AltSaveDirectoryName=Ragnarok
+GameFolder=arkrag

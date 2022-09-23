@@ -5,3 +5,4 @@ PortRawUDP=7788
 QueryPort=27051
 RCONPort=27085
 AltSaveDirectoryName=Aberration
+GameFolder=arkab

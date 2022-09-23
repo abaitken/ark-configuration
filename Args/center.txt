@@ -4,5 +4,5 @@ Port=7783
 PortRawUDP=7784
 QueryPort=27018
 RCONPort=27083
-AltSaveDirectoryName=Center
-
+AltSaveDirectoryName=TheCenter
+GameFolder=arktc
