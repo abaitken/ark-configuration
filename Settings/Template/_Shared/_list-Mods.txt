@@ -5,3 +5,4 @@ eco's ARRRRP Decor;2632699523
 eco's RP Decor;741203089
 Castles, Keeps, and Forts Remastered;1814953878
 #Arkitect Structures (Core);2818003905
+Death Recovery Mod;751991809
