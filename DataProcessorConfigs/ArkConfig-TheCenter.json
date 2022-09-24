@@ -1,5 +1,12 @@
 {            
     "FilePath": "C:\\Games\\arkg1\\ShooterGame\\Saved\\TheCenter\\TheCenter.ark",
+    "MapDefinition": {
+        "Name": "TheCenter",
+        "LatitudeShift": 30.34223747253418,
+        "LatitudeDivisor": 9584.0,
+        "LongitudeShift": 55.10416793823242,
+        "LongitudeDivisor": 9600.0
+    },
     "Filters": [
         {
             "Id": "structure_locations",

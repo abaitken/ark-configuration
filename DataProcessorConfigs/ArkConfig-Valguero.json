@@ -1,5 +1,12 @@
 {            
     "FilePath": "C:\\Games\\arkg1\\ShooterGame\\Saved\\Valguero\\Valguero.ark",
+    "MapDefinition": {
+        "Name": "Valguero_P",
+        "LatitudeShift": 50.0,
+        "LatitudeDivisor": 8161.0,
+        "LongitudeShift": 50.0,
+        "LongitudeDivisor": 8161.0
+    },
     "Filters": [
         {
             "Id": "structure_locations",

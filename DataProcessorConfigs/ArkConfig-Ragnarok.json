@@ -1,5 +1,12 @@
 {            
     "FilePath": "C:\\Games\\arkrag\\ShooterGame\\Saved\\Ragnarok\\Ragnarok.ark",
+    "MapDefinition": {
+        "Name": "Ragnarok",
+        "LatitudeShift": 50.009388,
+        "LatitudeDivisor": 13100,
+        "LongitudeShift": 50.009388,
+        "LongitudeDivisor": 13100
+    },
     "Filters": [
         {
             "Id": "structure_locations",

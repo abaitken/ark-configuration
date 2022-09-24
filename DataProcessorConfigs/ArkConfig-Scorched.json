@@ -1,5 +1,12 @@
 {
     "FilePath": "C:\\Games\\arkse\\ShooterGame\\Saved\\Scorched\\ScorchedEarth_P.ark",
+    "MapDefinition": {
+        "Name": "ScorchedEarth_P",
+        "LatitudeShift": 50.0,
+        "LatitudeDivisor": 8000.0,
+        "LongitudeShift": 50.0,
+        "LongitudeDivisor": 8000.0
+    },
     "Filters": [
         {
             "Id": "structure_locations",

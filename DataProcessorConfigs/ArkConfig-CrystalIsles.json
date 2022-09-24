@@ -1,5 +1,12 @@
 {            
     "FilePath": "C:\\Games\\arkrag\\ShooterGame\\Saved\\CrystalIsles\\CrystalIsles.ark",
+    "MapDefinition": {
+        "Name": "CrystalIsles",
+        "LatitudeShift": 50.0,
+        "LatitudeDivisor": 13718.0,
+        "LongitudeShift": 50.0,
+        "LongitudeDivisor": 13718.0
+    },
     "Filters": [
         {
             "Id": "structure_locations",

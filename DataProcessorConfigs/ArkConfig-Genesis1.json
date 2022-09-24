@@ -1,5 +1,12 @@
 {            
     "FilePath": "C:\\Games\\arkg1\\ShooterGame\\Saved\\Gen1\\Genesis.ark",
+    "MapDefinition": {
+        "Name": "Genesis",
+        "LatitudeShift": 50.0,
+        "LatitudeDivisor": 10500.0,
+        "LongitudeShift": 50.0,
+        "LongitudeDivisor": 10500.0
+    },
     "Filters": [
         {
             "Id": "structure_locations",

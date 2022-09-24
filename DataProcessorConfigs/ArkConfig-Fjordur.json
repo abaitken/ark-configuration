@@ -1,5 +1,12 @@
 {            
     "FilePath": "C:\\Games\\arkfj\\ShooterGame\\Saved\\Fjordur\\Fjordur.ark",
+    "MapDefinition": {
+        "Name": "Fjordur",
+        "LatitudeShift": 50.009388,
+        "LatitudeDivisor": 13100,
+        "LongitudeShift": 50.009388,
+        "LongitudeDivisor": 13100
+    },
     "Filters": [
         {
             "Id": "structure_locations",
