@@ -1,8 +1,17 @@
 @echo off
+goto :main
+
+:copySave
+SETLOCAL
+for /f "eol=# tokens=1* delims==" %%i in (..\args\%1.txt) do SET %%i=%%j
+echo Copy %SessionName%...
+if exist "C:\Games\%GameFolder%\ShooterGame\Saved\%AltSaveDirectoryName%\%map%.ark" copy /y C:\Games\%GameFolder%\ShooterGame\Saved\%AltSaveDirectoryName%\%map%.ark ..\backups\%map%.ark
+ENDLOCAL
+goto :eof
+
+:main
 cd /d "%~dp0"
-copy /y C:\Games\ark\ShooterGame\Saved\Island\TheIsland.ark ..\backups\TheIsland.ark
-copy /y C:\Games\arkse\ShooterGame\Saved\Scorched\ScorchedEarth_P.ark ..\backups\ScorchedEarth_P.ark
-copy /y C:\Games\arkab\ShooterGame\Saved\Aberration\Aberration_P.ark ..\backups\Aberration_P.ark
-copy /y C:\Games\arkex\ShooterGame\Saved\Extinction\Extinction.ark ..\backups\Extinction.ark
-copy /y C:\Games\arkrag\ShooterGame\Saved\Ragnarok\Ragnarok.ark ..\backups\Ragnarok.ark
+
+for /f "eol=# tokens=1 delims=" %%a in (..\maplist.txt) do call :copySave %%a
+
 pause
