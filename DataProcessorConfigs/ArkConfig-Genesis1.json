@@ -10,7 +10,7 @@
     "Filters": [
         {
             "Id": "structure_locations",
-            "Include": [ "BeaverDam_C", "Zipline_Anchor_C" ]
+            "Include": [ "BeaverDam_C", "Zipline_Anchor_C", "CherufeNest_C" ]
         },
         {
             "Id": "wild_creature_locations",
