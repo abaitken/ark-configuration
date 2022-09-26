@@ -3,9 +3,9 @@
     "MapDefinition": {
         "Name": "Genesis2",
         "LatitudeShift": 50.009388,
-        "LatitudeDivisor": 13100,
+        "LatitudeDivisor": 14500,
         "LongitudeShift": 50.009388,
-        "LongitudeDivisor": 13100
+        "LongitudeDivisor": 14500
     },
     "Filters": [
         {

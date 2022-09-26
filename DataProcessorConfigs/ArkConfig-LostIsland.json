@@ -3,9 +3,9 @@
     "MapDefinition": {
         "Name": "LostIsland",
         "LatitudeShift": 50.009388,
-        "LatitudeDivisor": 13100,
+        "LatitudeDivisor": 15300,
         "LongitudeShift": 50.009388,
-        "LongitudeDivisor": 13100
+        "LongitudeDivisor": 15300
     },
     "Filters": [
         {
