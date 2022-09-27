@@ -14,11 +14,11 @@
         },
         {
             "Id": "wild_creature_locations",
-            "Exclude": [ "Coel_Character_BP_C" ]
+            "Exclude": [ "Coel_Character_BP_C", "Coel_Character_BP_Ocean_C" ]
         },
         {
             "Id": "wild_creature_locations_chunked",
-            "Exclude": [ "Coel_Character_BP_C" ]
+            "Exclude": [ "Coel_Character_BP_C", "Coel_Character_BP_Ocean_C" ]
         }
     ],
     "UploadTargets": [
