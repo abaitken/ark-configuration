@@ -16,6 +16,6 @@ if /i "%confirm%" NEQ "Y" goto :eof
 
 cd /d "%~dp0"
 
-for /f "eol=# tokens=1 delims=" %%i in (..\maplist.txt) do call :getSettings %%i
+for /f "eol=# tokens=1 delims=" %%i in (..\maplist.txt) do call :restoreSettings %%i
 
 pause
