@@ -13,7 +13,7 @@ ClusterId=exilers01
 ClusterDirOverride=C:\Data\ark-clusters
 PreventSpawnAnimations=true
 
-AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -NoBattlEye -noundermeshchecking -noundermeshkilling
+AdditionalFlags=-UseDynamicConfig -NoTransferFromFiltering -ClusterDirOverride="!ClusterDirOverride!" -clusterid=!ClusterId! -ActiveEvent=FearEvolved -NoBattlEye -noundermeshchecking -noundermeshkilling
 
 # -ActiveEvent=Easter
 # -ActiveEvent=SummerBash
