@@ -61,6 +61,26 @@
                     "RemoteTarget": "C:\\Data\\ark\\backups\\keys-fj.json"
                 }
             ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkg1\\ShooterGame\\Saved\\Genesis1\\Genesis.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-g1.json"
+                }
+            ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arkg2\\ShooterGame\\Saved\\Genesis2\\Gen2.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-g2.json"
+                }
+            ]
         }
     ]
 }
