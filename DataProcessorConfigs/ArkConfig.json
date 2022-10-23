@@ -18,6 +18,7 @@
         { "ExternalConfiguration": "ArkConfig-Extinction.json" },
         { "ExternalConfiguration": "ArkConfig-Ragnarok.json" },
         { "ExternalConfiguration": "ArkConfig-Genesis1.json" },
-        { "ExternalConfiguration": "ArkConfig-Fjordur.json" }
+        { "ExternalConfiguration": "ArkConfig-Fjordur.json" },
+        { "ExternalConfiguration": "ArkConfig-Genesis2.json" }
     ]
 }
