@@ -1,0 +1,5 @@
+[ServerSettings]
+DayCycleSpeedScale=1.2
+DayTimeSpeedScale=0.60000
+NightTimeSpeedScale=1.20000
+
