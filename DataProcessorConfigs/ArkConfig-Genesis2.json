@@ -2,9 +2,9 @@
     "FilePath": "C:\\Games\\arkg1\\ShooterGame\\Saved\\Gen2\\Genesis2.ark",
     "MapDefinition": {
         "Name": "Gen2",
-        "LatitudeShift": 50.009388,
+        "LatitudeShift": 49.655,
         "LatitudeDivisor": 14500,
-        "LongitudeShift": 50.009388,
+        "LongitudeShift": 49.655,
         "LongitudeDivisor": 14500
     },
     "Filters": [
