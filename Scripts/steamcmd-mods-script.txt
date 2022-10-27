@@ -1,0 +1,12 @@
+@ShutdownOnFailedCommand 0 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 
+force_install_dir C:\Games\ark-next\Engine\Binaries\ThirdParty\SteamCMD\Win64
+login anonymous
+workshop_download_item 346110 731604991
+workshop_download_item 346110 793605978
+workshop_download_item 346110 902616446
+workshop_download_item 346110 2632699523
+workshop_download_item 346110 741203089
+workshop_download_item 346110 1814953878
+workshop_download_item 346110 751991809
+quit

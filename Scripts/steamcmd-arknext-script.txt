@@ -1,0 +1,6 @@
+@ShutdownOnFailedCommand 0 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 
+force_install_dir C:\Games\ark-next
+login anonymous
+app_update 376030
+quit
