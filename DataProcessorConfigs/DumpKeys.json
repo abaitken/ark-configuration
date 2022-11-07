@@ -81,6 +81,16 @@
                     "RemoteTarget": "C:\\Data\\ark\\backups\\keys-g2.json"
                 }
             ]
+        },
+        {            
+            "FilePath": "C:\\Games\\arktc\\ShooterGame\\Saved\\TheCenter\\TheCenter.ark",
+            "UploadTargets": [
+                {
+                    "Id": "dump_keys",
+                    "Scheme": "copy",
+                    "RemoteTarget": "C:\\Data\\ark\\backups\\keys-tc.json"
+                }
+            ]
         }
     ]
 }
