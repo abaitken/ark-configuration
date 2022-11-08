@@ -1,4 +1,6 @@
 cheat giveitem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Transmitter/PrimalItemStructure_TransmitterPlus.PrimalItemStructure_TransmitterPlus'" 1 0 0
+cheat giveitem "Blueprint'/Game/Mods/StructuresPlusMod/Misc/GeneratorTek/PrimalItemStructure_GeneratorTek.PrimalItemStructure_GeneratorTek'" 1 0 0
+
 
 Crafting
 cheat GiveItem "Blueprint'/Game/Mods/StructuresPlusMod/Crafting/Station/PrimalItemStructure_SPlusCraftingStation.PrimalItemStructure_SPlusCraftingStation'" 1 1 0
