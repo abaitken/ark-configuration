@@ -1,0 +1,7 @@
+@ShutdownOnFailedCommand 0 //set to 0 if updating multiple servers at once
+// ARK Survival Evolved - Genesis 2 
+@NoPromptForPassword 1
+force_install_dir C:\Games\arkg2
+login anonymous
+app_update 376030 validate
+quit

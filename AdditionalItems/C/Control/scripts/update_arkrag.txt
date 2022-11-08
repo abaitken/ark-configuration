@@ -1,0 +1,7 @@
+@ShutdownOnFailedCommand 0 //set to 0 if updating multiple servers at once
+// ARK Survival Evolved - Ragnarok 
+@NoPromptForPassword 1
+force_install_dir C:\Games\arkrag
+login anonymous
+app_update 376030
+quit
